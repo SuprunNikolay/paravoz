@@ -1,0 +1,233 @@
+@import url('../fonts/fonts.css');
+html, a, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	font-size: 100%;
+	list-style-type: none;
+	text-decoration: none
+}
+
+header{
+	height: 184px;
+	width: 960px;
+}
+header nav, header div {
+	display: inline-block;
+}
+body {
+	position: relative;
+ 	margin-left: auto;
+    margin-right: auto;
+	background-color: black;
+	width: 960px;
+	color: white;
+}
+a{
+	color: white;
+}
+nav{
+	margin-left: 36px;
+	vertical-align:36px;
+}
+nav li{
+	display: inline;
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 16px;
+	margin-left: 51px;
+}
+nav li:hover{
+	border-bottom: solid 1px white;
+}
+nav li:first-child {
+	margin: auto;
+}
+nav li:last-child {
+	margin-right: 33px;
+}
+.logo{
+	margin: 3px 33px 0px 0px;
+}
+.adres_head{
+	margin-right: 36px;
+	vertical-align:26px;
+	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+}
+.city {
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 14px;
+}
+.phone_head {
+	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align:26px;
+}
+.reserv{
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 13.18px;
+	color: #ff6600;
+}
+.reserv:hover{
+	color:#ff0606;
+}
+.white_switch{
+	background: url("../images/switch_white.png") no-repeat;
+}
+.black_switch{
+	background: url("../images/switch_black.png") no-repeat;
+	margin-left: 6px;
+}
+.gray_switch{
+	background: url("../images/switch_gray.png") no-repeat;
+}
+.switch {
+	text-align: center;
+	vertical-align: middle;	
+	/*margin-left: 465px;*/
+}
+.switch li{
+	display: inline;
+	padding: 5px;
+	text-align: center;
+}	
+.news {
+	margin: 35px 0px 14px 0px;
+}
+.news_image {
+	margin-left: 70px;
+	background: url("../images/news.jpg") no-repeat;
+	height: 331px;
+	width: 820px;
+}
+.news_text{
+	background-color: rgba(0,0,0,0.7);
+	margin-left: 560px;
+	padding: 7px 3px 0px 7px;
+	font-family: 'OpenSans-Light', sans-serif;
+	height: 331px;
+}
+.news_text:hover{
+	background-color: rgba(0,0,0,0.83);
+}
+.box_header{
+	text-align: center;
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 24px;
+	color: white;
+	margin-top: 55px;
+}
+.box_header_img1, .box_header_img2, .box_header_img3{
+	height: 62px;
+	width: 961px;
+	margin: 5px 0px 20px 0px;
+}
+.box_header_img1{
+	background: url("../images/head1.png") no-repeat;
+}
+.range_text{
+	width: 503px;
+	height: 415px;
+	margin-left: 56px;
+	font-family: 'OpenSans-Light', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.semi-bold {
+	font-family: 'OpenSans-Semibold', sans-serif;
+}
+.bold{
+	font-family: 'OpenSans-Bold', sans-serif;
+}
+.light{
+	font-family: 'OpenSans-Light', sans-serif;
+}
+.range_img1 {
+	float: right;
+	margin-right: 55px;
+	width: 333px;
+	height: 415px;
+	clear: both;
+}
+.range_img1 {
+	background: url("../images/hookah1.jpg") no-repeat;
+}
+.arrow_l{
+	position: relative;
+	top: 205px;
+	width: 17px;
+	height: 35px;
+
+	background: url("../images/arrow_left.png") no-repeat;
+}
+.arrow_r{
+	position: relative;
+	left: 919px;
+	bottom: 245px;
+	width: 17px;
+	height: 35px;
+	background: url("../images/arrow_right.png") no-repeat;
+}
+.box_header_img2{
+	background: url("../images/head2.png") no-repeat;
+}
+.history_text{
+	font-family: 'OpenSans-Light', sans-serif;
+	font-size: 16px;
+	color: white;
+	margin: 0px 10px 0px 10px;
+}
+.history_text p {
+	text-indent: 20px;
+	margin-bottom: 0.8em;
+	text-align: justify;
+}
+.box_header_img3{
+	background: url("../images/head3.png") no-repeat;
+}
+.contacts_text{
+	margin: 24px 0 38px 46px;
+	font-size: 18px;
+	font-family: 'OpenSans-Regular', sans-serif;
+}
+.time {
+	margin-bottom: 25px;
+}
+.adres{
+	margin-bottom: 25px;
+}
+.reserv_footer{
+	font-size: 16px;
+}
+.map{
+	float:right;
+	width: 540px;
+	height: 245px;
+	margin: 12px 10px 0 0;
+	border: solid #6d6d6d 2px;
+}
+.social{
+	margin-left: 370px;
+	margin-bottom: 50px;
+}
+.social li{
+	display: inline-block;
+}
+.vk,.fb,.insta{
+	width: 56px;
+	height: 56px;
+	margin-right: 25px;
+}
+.vk{
+	background: url("../images/VK.png") no-repeat;
+}
+.fb{
+	background: url("../images/FB.png") no-repeat;
+}
+.insta{
+	background: url("../images/Insta.png") no-repeat;
+}
